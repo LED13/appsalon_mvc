@@ -1,0 +1,23 @@
+{
+    "name": "bled/appsalon_mvc",
+    "description": "Proyecto App Salon, PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beñat Led Ibarguren",
+            "email": "b.ledibarguren@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
